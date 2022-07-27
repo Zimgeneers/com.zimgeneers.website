@@ -7,7 +7,16 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    'gatsby-plugin-styled-components',
     `gatsby-plugin-image`,
+    {
+      resolve: "gatsby-plugin-hubspot",
+      options: {
+        trackingCode: "25985231",
+        respectDNT: false,
+        productionOnly: false,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
