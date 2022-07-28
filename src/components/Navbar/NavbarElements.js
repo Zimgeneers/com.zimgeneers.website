@@ -68,8 +68,8 @@ export const NavMenu = styled.ul`
         height: 90vh;
         position: absolute;
         top: ${({ click }) => (click? "100%" : "-1000px") };
-            opacity: 1;
-            transition: all 0.2s ease;
+            opacity: 0.9;
+            transition: all 0.5s ease;
             background: #fff;
     }
 `

@@ -48,7 +48,10 @@ const Navbar = () => {
                                 <NavLinks to="/">Home</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="/pettrakr">PetTrakR</NavLinks>
+                                <NavLinks to="/#Team">Who we are</NavLinks>
+                            </NavItem>
+                            <NavItem>
+                                <NavLinks to="/#PetTrakr">PetTrakR</NavLinks>
                             </NavItem>
                             <NavItem>
                                 <NavLinks to="/contact">Contact Us</NavLinks>

@@ -9,6 +9,10 @@ export const FooterContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: sticky;
+    bottom: 0;
+    z-index: 999;
+    border-top: 2px solid #fff;
 `
 export const SocialMedia = styled.section`
     max-width: 1000px;
@@ -53,6 +57,6 @@ export const SocialIcons = styled.div`
     width: 240px;
 `
 export const SocialIconLink = styled.a`
-    color: #fff
+    color: #fff;
     font-size: 24px;
 `
