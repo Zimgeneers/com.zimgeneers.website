@@ -44,7 +44,7 @@ export const SocialIcon = styled(GiCog)`
 
 export const WebsiteRights = styled.small`
     align-items: center;
-    text-align: center;
+    text-align: left;
     color: #fff;
     margin-bottom: 10px
     font-family: 'Allerta Stencil', sans-serif;

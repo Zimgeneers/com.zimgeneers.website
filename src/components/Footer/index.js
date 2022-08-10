@@ -7,10 +7,10 @@ const Footer = () => {
         <FooterContainer>
             <SocialMedia>
                 <SocialMediaWrap>
-                    <SocialLogo to="/">
+                    {/* <SocialLogo to="/">
                         <SocialIcon />
                             ZIMGENEERS 
-                    </SocialLogo>
+                    </SocialLogo> */}
                     <WebsiteRights>ACN: 653 169 923<br />Zimgeneers © {new Date().getFullYear()} </WebsiteRights>
                     <SocialIcons>
                         <SocialIconLink href="/" target="_blank" aria-label="LinkedIn">

@@ -33,13 +33,14 @@ export const NavLogo = styled(Link)`
     justify-self: flex-start;
     cursor: pointer;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 2rem;
     display: flex;
     align-items: center;
     `
 
 export const NavIcon = styled(GiCog)`
     margin: 0 0.5rem 0 2rem;
+    font-size:2rem;
 `
 
 export const MobileIcon = styled.div`
