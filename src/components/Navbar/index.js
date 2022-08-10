@@ -54,7 +54,7 @@ const Navbar = () => {
                                 <NavLinks to="/#PetTrakr">PetTrakR</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="/contact">Contact Us</NavLinks>
+                                <NavLinks to="/#contact">Contact Us</NavLinks>
                             </NavItem>
                         </NavMenu>
                     </NavbarContainer>

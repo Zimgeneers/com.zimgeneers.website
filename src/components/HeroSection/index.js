@@ -8,9 +8,11 @@ function HeroSection() {
             <h1>Make a Plan</h1>
             <p>An Antipodean Tech Start Up</p>
             <div className="hero-btns">
-                <Button fontBig big primary>
-                    Get in Touch
-                </Button>
+                <a href='/#contact'>
+                    <Button fontBig big primary>
+                        Get in Touch
+                    </Button>
+                </a>
             </div>
         </div>
     )

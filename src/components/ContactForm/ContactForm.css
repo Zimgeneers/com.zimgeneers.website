@@ -1,0 +1,11 @@
+span.anchor {
+    margin-top: -80px; /* height of nav, in this case 54px */
+    display: block;
+    height: 80px; /* height of nav, in this case 54px */
+    visibility: hidden;
+    position: relative;
+}
+
+.form-header {
+    margin-bottom: 25px;
+} 

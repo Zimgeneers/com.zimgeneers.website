@@ -8,9 +8,11 @@ function PettrakrSection() {
             <h1>Coming Soon</h1>
             <p>The Ziso PetTrakr</p>
             <div className="pettrakr-btns">
-            <Button fontBig big primary>
-                    Get in Touch
-                </Button>
+                <a href='/#contact'>
+                    <Button fontBig big primary>
+                        Get in Touch
+                    </Button>
+                </a>
             </div>
         </div>
     )
