@@ -15,16 +15,15 @@ export const FooterContainer = styled.div`
     border-top: 2px solid #fff;
 `
 export const SocialMedia = styled.section`
-    max-width: 1000px;
     width: 100%
 `
 export const SocialMediaWrap = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
+    width: 95%;
     max-width: 1000px;
-    margin: 20px auto;
+    margin: 10px auto;
 
     @media screen and (max-width: 820px){
         flex-direction: column;
@@ -39,22 +38,23 @@ export const SocialLogo = styled(Link)`
     font-size: 2rem;
     display: flex;
     align-items: center;
-    margin-bottom: 16px;
 `
 export const SocialIcon = styled(GiCog)`
-    margin-right: 10px;
-`
+    `
 
 export const WebsiteRights = styled.small`
+    align-items: center;
+    text-align: center;
     color: #fff;
-    margin-bottom: 16px
+    margin-bottom: 10px
     font-family: 'Allerta Stencil', sans-serif;
 `
 export const SocialIcons = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 240px;
+    width: 150px;
+    margin-top:5px;
 `
 export const SocialIconLink = styled.a`
     color: #fff;

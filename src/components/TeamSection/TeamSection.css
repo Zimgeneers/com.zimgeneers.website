@@ -1,0 +1,91 @@
+* {
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+
+span.anchor {
+    margin-top: -80px; /* height of nav, in this case 54px */
+    display: block;
+    height: 80px; /* height of nav, in this case 54px */
+    visibility: hidden;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e6e6;
+    flex-wrap: wrap;
+
+}
+
+.container > * {
+    flex: 0 1 30rem;
+}
+
+.card {
+    background-color: #fff;
+    width:400px;
+    height:auto;
+    margin:10px;
+    border-radius:10px;
+}
+
+.card-image {
+    background-color: #e6e6e6;
+    height: 200px;
+    width: auto;
+    margin: 15px;
+    background-size: cover;
+    /* border-radius:10px 10px 0px 0px; */
+    border-radius: 10px;
+}
+
+.gus {
+    background-image: url('../../images/gus.jpg');
+}
+
+.jamie {
+    background-image: url('../../images/jamie.jpg');
+}
+
+.zim {
+    background-image: url('../../images/ziso.png');
+}
+
+.card h2 {
+    padding: 10px;
+    text-align: center;
+}
+
+.card p {
+    padding: 15px;
+    height:150px;
+}
+
+.card h3 {
+    background-color: #101522;
+    color: #fff;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+    /* font-family: 'Allerta Stencil', sans-serif; */
+}
+
+.card:hover {
+    background-color: #101522;
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+}
+
+.card a:link {text-decoration:none; color: #000;}
+.card a:visited {text-decoration:none; color:#000; }
+.card a:hover {text-decoration:none; color: #fff; }
+.card a:active {text-decoration:none; }

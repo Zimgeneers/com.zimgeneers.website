@@ -1,5 +1,5 @@
 .hero-container {
-    background: url('../../images/cover.jpg') center center/cover no-repeat; /* https://pixabay.com/images/id-3786987/ */
+    background: url('../../images/cover-dog.jpg') center center/cover no-repeat; /* https://pixabay.com/images/id-3786987/ */
     height: 100vh;
     width: 100%;
     display: flex;
@@ -16,6 +16,7 @@
     color: #fff;
     font-size: 100px;
     margin-top: 0px;
+    text-align: center;
 }
 
 .hero-container > p {
@@ -36,10 +37,10 @@
 
 @media screen and (max-width:768px) {
     .hero-container > h1{
-        font-size: 60px;
+        font-size: 58px;
     }    
 
     .hero-container > p {
-        font-size: 30px;
+        font-size: 26px;
     }
 }

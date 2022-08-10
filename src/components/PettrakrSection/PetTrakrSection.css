@@ -1,5 +1,5 @@
 .pettrakr-container {
-    background: url('../../images/cover-dog.jpg') center center/cover no-repeat; /* https://pixabay.com/images/id-3786987/ */
+    background: url('../../images/cover-cat.jpg') center center/cover no-repeat; /* https://pixabay.com/photos/maine-coon-cat-cat-s-eyes-black-cat-694730/ */
     height: 100vh;
     width: 100%;
     display: flex;
@@ -9,13 +9,13 @@
     align-items: center;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
     object-fit: contain;
-    margin-top: -80px;
 }
 
 .pettrakr-container > h1{
     color: #fff;
     font-size: 100px;
     margin-top: 0px;
+    text-align: center;
 }
 
 .pettrakr-container > p {
@@ -36,10 +36,10 @@
 
 @media screen and (max-width:768px) {
     .pettrakr-container > h1{
-        font-size: 60px;
+        font-size: 58px;
     }    
 
     .pettrakr-container > p {
-        font-size: 30px;
+        font-size: 26px;
     }
 }
