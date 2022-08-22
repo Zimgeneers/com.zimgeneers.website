@@ -26,7 +26,7 @@ function TeamSection() {
             <a href="https://www.linkedin.com/company/zimgeneers/" target="_blank">
                 <div class="card-image zim"></div>
                 <h2>Zimgeneers</h2>
-                <p>Established in 2021, Zimgeneers is a company that is focused on keepings pets (and their owners) happy on their travels. Gus and Jamie have known each other since they went to school together. </p>
+                <p>Established in 2021, Zimgeneers is a company that is focused on keeping pets (and their owners) happy on their travels. Gus and Jamie have known each other since they went to school together. </p>
                 <h3>LinkedIn</h3>
             </a>
         </div>
