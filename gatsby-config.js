@@ -4,6 +4,7 @@ module.exports = {
     description: `A tech startup`,
     author: `@@jiros`,
     siteUrl: `https://zimgeneers.com`,
+    image: `./images/ziso.png`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
