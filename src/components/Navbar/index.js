@@ -1,6 +1,7 @@
 import React,{useState, useEffect} from 'react'
 import { FaBars,FaTimes} from "react-icons/fa"
 import { IconContext} from "react-icons/lib"
+import { StaticImage } from "gatsby-plugin-image"
 import {
     Nav, 
     NavbarContainer, 
@@ -37,8 +38,14 @@ const Navbar = () => {
                 <Nav active={scroll} click={click}>
                     <NavbarContainer>
                         <NavLogo to="/">
-                            <NavIcon />
-                            ZIMGENEERS
+                            {/* <NavIcon /> */}
+                            <StaticImage
+                                src="../../images/zm_logo.png"
+                                alt="A dinosaur"
+                                placeholder="blurred"
+                                layout="fixed"
+                                height={78}
+                                />
                         </NavLogo>
                         <MobileIcon onClick={handleClick}>
                             {click ? <FaTimes /> : <FaBars/>}
@@ -65,3 +72,8 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+
+
+
+
