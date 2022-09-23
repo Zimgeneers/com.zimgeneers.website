@@ -8,11 +8,11 @@ function PettrakrSection() {
         <div className="pettrakr-container" id="PetTrakr">
             <h1>Coming Soon</h1>
             <StaticImage
-            src="../../images/ziso-petrakr-white.png"
+            src="../../images/petrakr-white.png"
             alt="Ziso PetTrakr Logo"
             placeholder="blurred"
             layout="fixed"
-            height={300}
+            height={280}
             />
             <p>The Ziso PetTrakr</p>
             <div className="pettrakr-btns">
