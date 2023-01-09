@@ -40,11 +40,11 @@ const Navbar = () => {
                         <NavLogo to="/">
                             {/* <NavIcon /> */}
                             <StaticImage
-                                src="../../images/zm_logo.png"
-                                alt="A dinosaur"
+                                src="../../images/ziso-logo.png"
+                                alt="Ziso Logo"
                                 placeholder="blurred"
                                 layout="fixed"
-                                height={78}
+                                height={70}
                                 />
                         </NavLogo>
                         <MobileIcon onClick={handleClick}>

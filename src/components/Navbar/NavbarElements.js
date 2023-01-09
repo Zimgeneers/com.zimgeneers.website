@@ -3,7 +3,8 @@ import { GiCog } from "react-icons/gi";
 import styled from "styled-components"
 
 export const Nav = styled.nav`
-    background: ${({active})=> active ? "#fff": "linear-gradient(to bottom, rgba(255,255,255,0.6) 100%, rgba(255,255,255,1) 100%)"};
+    // background: ${({active})=> active ? "#fff": "linear-gradient(to bottom, rgba(255,255,255,0.6) 100%, rgba(255,255,255,1) 100%)"};
+    background: #fff;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -14,7 +15,8 @@ export const Nav = styled.nav`
     z-index: 999;
 
     @media screen and (max-width: 960px) {
-        background: ${({click}) => (click ? "#fff" : "linear-gradient(to bottom, rgba(255,255,255,0.6) 100%, rgba(255,255,255,1) 100%)")};
+        // background: ${({click}) => (click ? "#fff" : "linear-gradient(to bottom, rgba(255,255,255,0.6) 100%, rgba(255,255,255,1) 100%)")};
+        background: #fff;
         transition: 0.8s all ease;
     }
 `
@@ -69,7 +71,7 @@ export const NavMenu = styled.ul`
         height: 90vh;
         position: absolute;
         top: ${({ click }) => (click? "100%" : "-1000px") };
-            opacity: 0.9;
+            opacity: 1;
             transition: all 0.5s ease;
             background: #fff;
     }

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Zimgeeners`,
+    title: `Ziso`,
     description: `A tech startup`,
     author: `@@jiros`,
     siteUrl: `https://zimgeneers.com`,

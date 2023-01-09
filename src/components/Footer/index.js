@@ -11,7 +11,7 @@ const Footer = () => {
                         <SocialIcon />
                             ZIMGENEERS 
                     </SocialLogo> */}
-                    <WebsiteRights>ACN: 653 169 923<br />Zimgeneers © {new Date().getFullYear()} </WebsiteRights>
+                    <WebsiteRights>ACN: 653 169 923<br />zimgeneers © {new Date().getFullYear()} </WebsiteRights>
                     <SocialIcons>
                         <SocialIconLink href="https://www.linkedin.com/company/zimgeneers/" target="_blank" aria-label="LinkedIn">
                             <FaLinkedin />
@@ -22,7 +22,7 @@ const Footer = () => {
                         <SocialIconLink href="/" target="_blank" aria-label="Instagram">
                             <FaInstagram />
                         </SocialIconLink>
-                        <SocialIconLink href="mailto://hello@zimgeneers.com" target="_blank" aria-label="Email">
+                        <SocialIconLink href="mailto://hello@ziso.io" target="_blank" aria-label="Email">
                             <FaEnvelope />
                         </SocialIconLink>
                     </SocialIcons>
