@@ -18,7 +18,7 @@ function TeamSection() {
             <a href="https://www.linkedin.com/in/jirosmunro/" target="_blank" rel="noreferrer">
                 <div class="card-image jamie"></div>
                 <h2>Jamie Munro</h2>
-                <p>An IT consultant based in London, United Kingdom with over 25 years of broad industry experience including software development and IoT.</p>
+                <p>An IT consultant based in Stupava, Slovakia with over 25 years of broad industry experience including software development and IoT.</p>
                 <h3>LinkedIn</h3>
             </a>
         </div>
