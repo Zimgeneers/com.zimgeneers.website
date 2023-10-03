@@ -6,7 +6,7 @@ function HeroSection() {
     return (
         <div className="hero-container">
             <h1>Keeping an eye on your pet</h1>
-            <p>An Antipodean Tech Start Up</p>
+            <p>A picture is worth a thousand words</p>
             <div className="hero-btns">
                 <a href='/#contact'>
                     <Button fontBig big primary>
