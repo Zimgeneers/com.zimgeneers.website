@@ -8,6 +8,14 @@ function PettrakrSection() {
             <span class="anchor" id="PetTrakr"></span>
             <h1> Airline Approvals </h1>
             <p>The ZiSO PetTrakr G013A has been approved for use on the following airlines. If you would like to find out more please get in touch!</p>
+                <StaticImage
+                src="../../images/petrakr-white.png"
+                alt="PetTrakr Logo"
+                placeholder="blurred"
+                layout="fixed"
+                width={200}
+                className="pettrakr-logo"
+                />
             <section class="approval-container">
                 <div class="airline-card">
                     <a href="https://www.airnewzealandcargo.com/cargo-data-loggers" target="_blank" rel="noreferrer">
@@ -17,6 +25,7 @@ function PettrakrSection() {
                             alt="Air New Zealand Logo"
                             placeholder="blurred"
                             layout="constrained"
+                            className="airline-logo"
                             />
                         </div>
                         <h3>APPROVED</h3>
@@ -30,6 +39,7 @@ function PettrakrSection() {
                             alt="Etihad Cargo Logo"
                             placeholder="blurred"
                             layout="constrained"
+                            className="airline-logo"
                             />
                         </div>
                         <h3>APPROVED</h3>
@@ -43,6 +53,7 @@ function PettrakrSection() {
                             alt="Qatar Cargo Logo"
                             placeholder="blurred"
                             layout="constrained"
+                            className="airline-logo"
                             />
                         </div>
                         <h3>APPROVED</h3>

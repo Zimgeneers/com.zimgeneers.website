@@ -58,7 +58,7 @@ const Navbar = () => {
                                 <NavLinks to="/#Team">Who we are</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="/#PetTrakr">PetTrakR</NavLinks>
+                                <NavLinks to="/#PetTrakr">PetTrakr</NavLinks>
                             </NavItem>
                             <NavItem>
                                 <NavLinks to="/#contact">Contact Us</NavLinks>

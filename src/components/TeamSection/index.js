@@ -25,8 +25,8 @@ function TeamSection() {
         <div class="card">
             <a href="https://www.linkedin.com/company/zimgeneers/" target="_blank" rel="noreferrer">
                 <div class="card-image zim"></div>
-                <h2>Ziso</h2>
-                <p>Established in 2021, Ziso is a company that is focused on keeping pets (and their owners) happy on their travels. Gus and Jamie have known each other since they went to school together. </p>
+                <h2>ZiSO</h2>
+                <p>Established in 2021, ZiSO is a company that is focused on keeping pets (and their owners) happy on their travels. Gus and Jamie have known each other since they went to school together. </p>
                 <h3>LinkedIn</h3>
             </a>
         </div>
