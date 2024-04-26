@@ -11,8 +11,7 @@ const Footer = () => {
                         <SocialIcon />
                             ZIMGENEERS 
                     </SocialLogo> */}
-                    <WebsiteRights>ACN: 653 169 923<br />Registered office:
-Heaney Business Group, Unit 7 , 12 Belgravia Terrace , Rockingham WA 6168<br />zimgeneers t/a ziso.io © {new Date().getFullYear()}</WebsiteRights>
+                    <WebsiteRights>ACN: 653 169 923<br />zimgeneers t/a ziso.io © {new Date().getFullYear()}</WebsiteRights>
                     <SocialIcons>
                         <SocialIconLink href="https://www.linkedin.com/company/zimgeneers/" target="_blank" aria-label="LinkedIn">
                             <FaLinkedin />
