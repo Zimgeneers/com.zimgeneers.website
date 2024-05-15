@@ -32,6 +32,20 @@ function PettrakrSection() {
                     </a>
                 </div>  
                 <div class="airline-card">
+                    <a href="https://www.skycargo.com/" target="_blank" rel="noreferrer">
+                        <div class="airline-card-image">
+                            <StaticImage
+                            src="../../images/emirates-skycargo-logo.png"
+                            alt="Emirates SkyCargo Logo"
+                            placeholder="blurred"
+                            layout="constrained"
+                            className="airline-logo"
+                            />
+                        </div>
+                        <h3>APPROVED</h3>
+                    </a>
+                </div>  
+                <div class="airline-card">
                     <a href="https://www.etihadcargo.com/content/dam/eag/egcmc/etihadcargo/global/pdf/Etihad-List-of-Approved-EMD-Electronic-Monitoring-Devices-June-2023-v2.pdf" target="_blank" rel="noreferrer">
                         <div class="airline-card-image">
                             <StaticImage
