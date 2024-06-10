@@ -51,12 +51,13 @@ export const WebsiteRights = styled.small`
 `
 export const SocialIcons = styled.div`
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
     width: 150px;
     margin-top:5px;
-`
+    `
 export const SocialIconLink = styled.a`
     color: #fff;
     font-size: 24px;
+    margin-right:5px;
 `

@@ -23,10 +23,22 @@
     margin-top: 8px;
     color: #fff;
     font-size: 32px;
+    text-align: center;
 }
 
 .hero-btns {
     margin-top: 32px;
+}
+
+.hero-logo {
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+.hero-logo:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: all 0.3s ease;
 }
 
 @media screen and (max-width:960px) {

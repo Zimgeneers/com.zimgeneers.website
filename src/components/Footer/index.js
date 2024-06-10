@@ -16,12 +16,12 @@ const Footer = () => {
                         <SocialIconLink href="https://www.linkedin.com/company/zimgeneers/" target="_blank" aria-label="LinkedIn">
                             <FaLinkedin />
                         </SocialIconLink>
-                        <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+                        {/* <SocialIconLink href="/" target="_blank" aria-label="Facebook">
                             <FaFacebook />
                         </SocialIconLink>
                         <SocialIconLink href="/" target="_blank" aria-label="Instagram">
                             <FaInstagram />
-                        </SocialIconLink>
+                        </SocialIconLink> */}
                         <SocialIconLink href="mailto://hello@ziso.io" target="_blank" aria-label="Email">
                             <FaEnvelope />
                         </SocialIconLink>

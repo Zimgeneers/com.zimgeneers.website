@@ -8,6 +8,7 @@ import HeroSection from "../components/HeroSection"
 import PettrakrSection from "../components/PettrakrSection"
 import TeamSection from "../components/TeamSection"
 import ContactForm from "../components/ContactForm"
+import ApprovalsSection from "../components/ApprovalsSection"
 
 const IndexPage = () => (
   <Layout>
@@ -15,6 +16,7 @@ const IndexPage = () => (
       <HeroSection />
       <TeamSection />
       <PettrakrSection />
+      <ApprovalsSection />
       <ContactForm />
   </Layout>
 )

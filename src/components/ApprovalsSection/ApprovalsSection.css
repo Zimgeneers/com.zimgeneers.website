@@ -1,0 +1,88 @@
+.approvals-container {
+    background: url('../../images/cover-cat.jpg') center center/cover no-repeat; /* https://pixabay.com/photos/maine-coon-cat-cat-s-eyes-black-cat-694730/ */
+    display: flex;
+    position:relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    }
+
+.approvals-container > h1{
+    color: #fff;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 50px;
+    
+
+
+}
+
+.pettrakr-logo {
+    margin: 40px;
+}
+
+.approvals-container > p {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+
+.approval-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.airline-card {
+    display: flex;
+    flex-direction: column;
+    width:250px;
+    margin:18px;
+    border-radius:15px;
+}
+
+.airline-logo{
+    border-radius: 15px 15px 0px 0px;
+}
+
+.airline-card h3 {
+    background-color: #101522;
+    width:250px;
+    color: #fff;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+    /* font-family: 'Allerta Stencil', sans-serif; */
+}
+
+.airline-card:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+}
+
+.airline-card a:link {text-decoration:none; color: #000;}
+.airline-card a:visited {text-decoration:none; color:#000; }
+.airline-card a:hover {text-decoration:none;  }
+.airline-card a:active {text-decoration:none; }
+
+@media screen and (max-width:960px) {
+    .pettrakr-container > h1{
+        font-size: 50px;
+    }    
+}
+
+@media screen and (max-width:768px) {
+    .pettrakr-container > h1{
+        font-size: 48px;
+    }    
+
+    .pettrakr-container > p {
+        font-size: 26px;
+    }
+}
+

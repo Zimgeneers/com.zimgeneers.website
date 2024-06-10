@@ -61,6 +61,9 @@ const Navbar = () => {
                                 <NavLinks to="/#PetTrakr">PetTrakr</NavLinks>
                             </NavItem>
                             <NavItem>
+                            <NavLinks to="/#Approvals">Airlines</NavLinks>
+                            </NavItem>
+                            <NavItem>
                                 <NavLinks to="/#contact">Contact Us</NavLinks>
                             </NavItem>
                         </NavMenu>

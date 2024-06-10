@@ -6,74 +6,30 @@ function PettrakrSection() {
     return (
         <div className="pettrakr-container">
             <span class="anchor" id="PetTrakr"></span>
-            <h1> Airline Approvals </h1>
-            <p>The ZiSO PetTrakr G013A has been approved for use on the following airlines. If you would like to find out more please get in touch!</p>
+            <h1>PetTrakr</h1>
+            <p>Sometimes, a picture really is worth a thousand words.</p>
                 <StaticImage
-                src="../../images/petrakr-white.png"
+                src="../../images/polaroids.png"
                 alt="PetTrakr Logo"
                 placeholder="blurred"
-                layout="fixed"
-                width={200}
-                className="pettrakr-logo"
+                layout="constrained"
+                width={650}
+                className="polaroids"
                 />
-            <section class="approval-container">
-                <div class="airline-card">
-                    <a href="https://www.airnewzealandcargo.com/cargo-data-loggers" target="_blank" rel="noreferrer">
-                        <div class="airline-card-image">
-                            <StaticImage
-                            src="../../images/airnz-logo.png"
-                            alt="Air New Zealand Logo"
-                            placeholder="blurred"
-                            layout="constrained"
-                            className="airline-logo"
-                            />
-                        </div>
-                        <h3>APPROVED</h3>
-                    </a>
-                </div>  
-                <div class="airline-card">
-                    <a href="https://www.skycargo.com/" target="_blank" rel="noreferrer">
-                        <div class="airline-card-image">
-                            <StaticImage
-                            src="../../images/emirates-skycargo-logo.png"
-                            alt="Emirates SkyCargo Logo"
-                            placeholder="blurred"
-                            layout="constrained"
-                            className="airline-logo"
-                            />
-                        </div>
-                        <h3>APPROVED</h3>
-                    </a>
-                </div>  
-                <div class="airline-card">
-                    <a href="https://www.etihadcargo.com/content/dam/eag/egcmc/etihadcargo/global/pdf/Etihad-List-of-Approved-EMD-Electronic-Monitoring-Devices-June-2023-v2.pdf" target="_blank" rel="noreferrer">
-                        <div class="airline-card-image">
-                            <StaticImage
-                            src="../../images/etihad-cargo-logo.png"
-                            alt="Etihad Cargo Logo"
-                            placeholder="blurred"
-                            layout="constrained"
-                            className="airline-logo"
-                            />
-                        </div>
-                        <h3>APPROVED</h3>
-                    </a>
-                </div>  
-                <div class="airline-card">
-                    <a href="https://mycargo01.qrcargo.com/s/qatar-airways-approved-devices" target="_blank" rel="noreferrer">
-                        <div class="airline-card-image">
-                            <StaticImage
-                            src="../../images/qatar-cargo.png"
-                            alt="Qatar Cargo Logo"
-                            placeholder="blurred"
-                            layout="constrained"
-                            className="airline-logo"
-                            />
-                        </div>
-                        <h3>APPROVED</h3>
-                    </a>
-                </div>  
-            </section>
+            <div class="pettrakr-blurb">
+                <p>PetTrakr is a unique technology designed to allow pet owners to track their pet’s journey in real time. Pet travel by air has until now been a ‘behind closed doors’ experience for pet owners. PetTrakr provides assurance and allows pet owners to travel virtually along with their pet.</p>
+                <p>Now available exclusively through Jetpets on routes between Australia, Auckland and Heathrow.</p>
+                <a href='https://www.jetpets.com.au/contact-us/' target="_blank" rel="noreferrer">
+                    <StaticImage
+                    src="../../images/jetpets-logo-transparent.png"
+                    alt="PetTrakr Logo"
+                    placeholder="blurred"
+                    layout="fixed"
+                    width={150}
+                    className="logo"
+                    />
+                </a>
+            </div>
         </div>
     )
     }
