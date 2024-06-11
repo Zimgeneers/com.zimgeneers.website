@@ -4,12 +4,14 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import CrateSection from "../components/CrateInstructions"
 
 
 const CratePage = () => (
   <Layout>
     <Seo title="Home" />
-      Watch this space for instructions...
+    <CrateSection />
+      
   </Layout>
 )
 
