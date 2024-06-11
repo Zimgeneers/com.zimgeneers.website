@@ -8,7 +8,36 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    flex-wrap: wrap;
     }
+
+    .crate-card-container {
+        /* background: url('../../images/cover-cat.jpg') center center/cover no-repeat; https://pixabay.com/photos/maine-coon-cat-cat-s-eyes-black-cat-694730/ */
+        display: flex;
+        position:relative;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        }
+
+.crate-card {
+    background-color: #fff;
+    width:400px;
+    height:auto;
+    margin:10px;
+    border-radius:10px;
+}
+
+.crate-card-image {
+    background-color: #e6e6e6;
+    height: 300px;
+    width: auto;
+    margin: 15px;
+    background-size: cover;
+    /* border-radius:10px 10px 0px 0px; */
+    border-radius: 10px;
+}
 
 .crate-container > h1{
     color: #fff;
